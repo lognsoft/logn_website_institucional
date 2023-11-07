@@ -26,10 +26,11 @@ function handleScroll(e){
 </script>
 
 
-<header class=" page-header header-basic" style="background-color: #09aff4; padding: 20px;" id="page-header">
+<header class=" page-header header-basic" style="background-color: #09aff4;" id="page-header">
   <div class="container">
     <nav class="menu-navbar">
-      <div class="header-logo"><Link class="logo-link" to="/"><img style="width: 100px" class="logo-img light-logo" loading="lazy" src={logolight} alt="logo"/>
+      <div class="header-logo"><Link class="logo-link" to="/">
+        <img style="width: 100px; margin: 20px;" class="logo-img light-logo" loading="lazy" src={logolight} alt="logo"/>
         <img class="logo-img  dark-logo" loading="lazy" src={darkLogo} alt="logo"/></Link></div>
       <div  class="links menu-wrapper">
         <ul class="list-js links-list">
