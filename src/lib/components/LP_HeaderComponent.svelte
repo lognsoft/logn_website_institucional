@@ -56,7 +56,7 @@ function handleScroll(e){
       </div>
       <div class="controls-box">
         <!--Menu Toggler button-->
-        <div class="control menu-toggler"><span></span><span></span><span></span></div>
+        <!-- <div class="control menu-toggler"><span></span><span></span><span></span></div> -->
       </div>
     </nav>
   </div>
