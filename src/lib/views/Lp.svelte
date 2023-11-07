@@ -22,7 +22,13 @@ onDestroy(clearScript);
 
 
 <div class="service-single "> 
+  
   <div class="container">
+    <div class="cta-area"><Link class="btn-solid " to="/sobre">Sobre nós</Link>
+      <div class="signature ">
+        <div class="signature-img"></div>
+      </div>
+    </div>
     <div class="row">
       <!--Start service content-->
       <div class="col-12 col-xl-8  ">
@@ -38,6 +44,7 @@ onDestroy(clearScript);
               <h2 class="service-title">O que você vai aprender</h2>
               <p class="service-text">Ao longo do curso, usaremos a linguagem de programação C#. No entanto, nosso foco primordial é aprofundar-se em algoritmos e lógica de programação, pilares essenciais para a formação de um programador de excelência.</p>
             </div>
+            
             <div class="part">
               <h2 class="service-title">Estruturado em 13 Módulos Essenciais!</h2>
               <p class="service-text">Com o objetivo de promover uma aprendizagem contínua e completa, desenhamos este curso em 13 módulos essenciais. Cada segmento foi cuidadosamente planejado para assegurar que você alcance uma profunda compreensão dos tópicos abordados. Estruturamos todo o curso de forma lógica e didática, buscando enriquecer ao máximo sua trajetória como programador.</p>
@@ -45,8 +52,10 @@ onDestroy(clearScript);
               <h2 class="service-title">Duração - 12 meses</h2>
               <p class="service-text">Todos os nossos cursos são flexiveis em relação à data de conclusão. O mentor avança pelos módulos de acordo com o desenvolvimento da turma. Nossa principal meta não é simplesmente finalizar o curso em 12 meses, mas assegurar que cada aluno compreenda e assimile plenamente o conteúdo apresentado. Assim, a duração do curso pode, ocasionalmente, exceder os 12 meses.</p>
 
+              
               <h2 class="service-title">Certificado</h2>
               <p class="service-text">Ao concluir o curso, o aluno receberá um certificado que atestará sua competência e dedicação no aprendizado. Esse documento servirá como uma comprovação do conhecimento adquirido e poderá ser usado para enriquecer seu currículo profissional.</p>
+              
               <div class="info-items-list">
                 <div class="row">
                   <div class="col-12 col-md-6 ">
