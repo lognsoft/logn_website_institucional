@@ -47,7 +47,7 @@ onDestroy(clearScript);
             </div>
             
             <div class="part">
-              <h2 class="service-title">Estruturado em 13 Módulos Essenciais!</h2>
+              <h2 class="service-title">Estruturado em 12 Módulos Essenciais!</h2>
               <p class="service-text">Com o objetivo de promover uma aprendizagem contínua e completa, desenhamos este curso em 13 módulos essenciais. Cada segmento foi cuidadosamente planejado para assegurar que você alcance uma profunda compreensão dos tópicos abordados. Estruturamos todo o curso de forma lógica e didática, buscando enriquecer ao máximo sua trajetória como programador.</p>
 
               <h2 class="service-title">Duração - 12 meses</h2>
