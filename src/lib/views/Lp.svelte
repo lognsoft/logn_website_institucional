@@ -1,10 +1,14 @@
 <script setup>
+  import oportunidade from '../../assets/images/about/1.png';
 import BannerComponent from '../components/BannerComponent.svelte';
 import avatar from "../../assets/images/others/avatar.png";
-import HeaderComponent from '../components/HeaderComponent.svelte';
+import HeaderComponent from '../components/LP_HeaderComponent.svelte';
 import { onMount, onDestroy } from 'svelte';
 import { moveTopPage } from '../../tools/scrollMove';
 import { generateScript, clearScript } from '../../tools/index.js';
+import pageHeroBG from '../../assets/images/sections-bg-images/pattern-bg-1.jpg';
+import astronauta from '../../assets/images/others/astronauta.png';
+import { Link } from 'svelte-routing';
 
 onMount(() => {
   moveTopPage()
@@ -15,7 +19,8 @@ onDestroy(clearScript);
 </script>
   
 <HeaderComponent/>
-<BannerComponent title="Programação para iniciantes"/>
+
+
 <div class="service-single "> 
   <div class="container">
     <div class="row">
@@ -418,9 +423,11 @@ onDestroy(clearScript);
           </div>
         </div>
       </div>
+
       <!--Start service content-->
       <!-- Start service sidebar-->
       <div class="col-12 col-xl-4">
+        
         <div class="service-sidebar ">
           <div class="sidebar-pane" style="padding: 0px;">
             <img src={avatar} alt="" style="width: 100%; border-radius: 3px">
@@ -446,7 +453,11 @@ onDestroy(clearScript);
           </div>
         </div>
       </div>
+
+
+      
       <!-- End service sidebar-->
     </div>
+    
   </div>
 </div>

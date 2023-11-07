@@ -10,7 +10,7 @@ import { generateScript, clearScript } from '../../tools/index.js';
 import { moveTopPage } from '../../tools/scrollMove';
 
 onMount(() => {
-  moveTopPage()
+  moveTopPage();
   generateScript();
 })
 
@@ -135,7 +135,7 @@ onDestroy(clearScript);
     </div>
     <!--End first about div-->
     <!-- Start first about div-->
-    <div class="content-block  ">
+    <div class="content-block">
       <div class="row">
         <div class="col-12 col-lg-6 d-flex align-items-center about-col wow fadeInUp" data-wow-delay="0.2s">
           <div class="img-area">
