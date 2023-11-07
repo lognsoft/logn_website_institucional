@@ -24,11 +24,7 @@ onDestroy(clearScript);
 <div class="service-single "> 
   
   <div class="container">
-    <div class="cta-area"><Link class="btn-solid " to="/sobre">Sobre nós</Link>
-      <div class="signature ">
-        <div class="signature-img"></div>
-      </div>
-    </div>
+
     <div class="row">
       <!--Start service content-->
       <div class="col-12 col-xl-8  ">
@@ -39,6 +35,11 @@ onDestroy(clearScript);
               <h2 class="service-title">Veja como será essa jornada</h2>
               <p class="service-text">
                 Se você nunca teve contato com programação ou já possui experiência e deseja refinar seus conhecimentos, este é o curso ideal para você! Nosso foco principal é lógica de programação e algoritmos. Para escrever os códigos, usamos a linguagem de programação C# muito poderosa criada pela Microsoft.</p>
+            </div>
+            <div class="cta-area" style="margin-bottom: 30px;"><Link class="btn-solid" to="/sobre">Fale com nossa especialista</Link>
+              <div class="signature ">
+                <div class="signature-img"></div>
+              </div>
             </div>
             <div class="part">
               <h2 class="service-title">O que você vai aprender</h2>
@@ -56,6 +57,12 @@ onDestroy(clearScript);
               <h2 class="service-title">Certificado</h2>
               <p class="service-text">Ao concluir o curso, o aluno receberá um certificado que atestará sua competência e dedicação no aprendizado. Esse documento servirá como uma comprovação do conhecimento adquirido e poderá ser usado para enriquecer seu currículo profissional.</p>
               
+              <div class="cta-area" style="margin-bottom: 30px;"><Link class="btn-solid" to="/sobre">Fale com nossa especialista</Link>
+                <div class="signature ">
+                  <div class="signature-img"></div>
+                </div>
+              </div>
+
               <div class="info-items-list">
                 <div class="row">
                   <div class="col-12 col-md-6 ">
@@ -163,6 +170,11 @@ onDestroy(clearScript);
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="cta-area" style="margin-bottom: 30px;"><Link class="btn-solid" to="/sobre">Fale com nossa especialista</Link>
+              <div class="signature ">
+                <div class="signature-img"></div>
               </div>
             </div>
             <div class="part">
@@ -429,6 +441,11 @@ onDestroy(clearScript);
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="cta-area" style="margin-bottom: 30px;"><Link class="btn-solid" to="/sobre">Fale com nossa especialista</Link>
+          <div class="signature ">
+            <div class="signature-img"></div>
           </div>
         </div>
       </div>
