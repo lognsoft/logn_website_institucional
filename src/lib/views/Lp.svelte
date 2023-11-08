@@ -32,7 +32,7 @@ onDestroy(clearScript);
           <!-- <div class="featured-img-area part"><img class="feat-img img-fluid" src="assets/images/services/service-single-featured-img.jpg" alt="featured image"></div> -->
           <div class="service-content">
             <div class="part">
-              <h2 class="service-title">Veja como será essa jornada</h2>
+              <h2 class="service-title">Escola presencial de programação!</h2>
               <p class="service-text">
                 Se você nunca teve contato com programação ou já possui experiência e deseja refinar seus conhecimentos, este é o curso ideal para você! Nosso foco principal é lógica de programação e algoritmos. Para escrever os códigos, usamos a linguagem de programação C# muito poderosa criada pela Microsoft.</p>
             </div>
