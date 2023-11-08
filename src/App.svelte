@@ -26,7 +26,7 @@
     <Route path="/sobre" component={Sobre}/>
     <Route path="/contato" component={Contato}/>
     <Route path="/curso" component={Curso}/>
-    <Route path="/Lp" component={Lp}/>
+    <Route path="/lp" component={Lp}/>
     <Route path="*" component={Error}/>
   </main>
 </Router>
