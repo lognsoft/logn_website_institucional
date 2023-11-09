@@ -36,7 +36,7 @@ onDestroy(clearScript);
               <p class="service-text">
                 Se você nunca teve contato com programação ou já possui experiência e deseja refinar seus conhecimentos, este é o curso ideal para você! Nosso foco principal é lógica de programação e algoritmos. Para escrever os códigos, usamos a linguagem de programação C# muito poderosa criada pela Microsoft.</p>
             </div>
-            <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid" href="https://wa.me/19936189503?text=Olá! Tenho interesse e queria mais informações, por favor." target="_blank" title="whatsapp">Fale com nossa especialista</a>
+            <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid" href="https://wa.me/19936189503?text=Olá, vim do site e quero mais informações do curso de programação." target="_blank" title="whatsapp">Fale com nossa especialista</a>
               <div class="signature ">
                 <div class="signature-img"></div>
               </div>
@@ -57,7 +57,7 @@ onDestroy(clearScript);
               <h2 class="service-title">Certificado</h2>
               <p class="service-text">Ao concluir o curso, o aluno receberá um certificado que atestará sua competência e dedicação no aprendizado. Esse documento servirá como uma comprovação do conhecimento adquirido e poderá ser usado para enriquecer seu currículo profissional.</p>
               
-              <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid"href="https://wa.me/19936189503?text=Olá! Tenho interesse e queria mais informações, por favor." target="_blank" title="whatsapp">Fale com nossa especialista</a>
+              <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid"href="https://wa.me/19936189503?text=Olá, vim do site e quero mais informações do curso de programação." target="_blank" title="whatsapp">Fale com nossa especialista</a>
                 <div class="signature ">
                   <div class="signature-img"></div>
                 </div>
@@ -172,7 +172,7 @@ onDestroy(clearScript);
                 </div>
               </div>
             </div>
-            <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid" href="https://wa.me/19936189503?text=Olá! Tenho interesse e queria mais informações, por favor." target="_blank" title="whatsapp">Fale com nossa especialista</a>
+            <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid" href="https://wa.me/19936189503?text=Olá! Olá, vim do site e quero mais informações do curso de programação." target="_blank" title="whatsapp">Fale com nossa especialista</a>
               <div class="signature ">
                 <div class="signature-img"></div>
               </div>
@@ -443,7 +443,7 @@ onDestroy(clearScript);
             </div>
           </div>
         </div>
-        <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid" href="https://wa.me/19936189503?text=Olá! Tenho interesse e queria mais informações, por favor." target="_blank" title="whatsapp">Fale com nossa especialista</a>
+        <div class="cta-area" style="margin-bottom: 30px;"><a class="btn-solid" href="https://wa.me/19936189503?text=Olá, vim do site e quero mais informações do curso de programação." target="_blank" title="whatsapp">Fale com nossa especialista</a>
           <div class="signature ">
             <div class="signature-img"></div>
           </div>

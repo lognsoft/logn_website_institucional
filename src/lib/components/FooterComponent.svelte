@@ -74,7 +74,7 @@ import footerbg from '../../assets/images/sections-bg-images/footer-bg-1.jpg';
                     <!-- <li class="sc-item " title="Facebook"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
                     <li class="sc-item " title="youtube"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li> -->
                     <li class="sc-item"><a class="sc-link" href="https://www.instagram.com/codigo.dascoisas/" target="_blank" title="instagram"><i class="fab fa-instagram sc-icon"></i></a></li>
-                    <li class="sc-item"><a class="sc-link" href="https://wa.me/19936189503?text=Olá! Tenho interesse e queria mais informações, por favor." target="_blank" title="whatsapp"><i class="fab fa-whatsapp sc-icon"></i></a></li>
+                    <li class="sc-item"><a class="sc-link" href="https://wa.me/19936189503?text=Olá, vim do site e quero mais informações do curso de programação." target="_blank" title="whatsapp"><i class="fab fa-whatsapp sc-icon"></i></a></li>
                     </ul>
                 </ul>
                 </div>
