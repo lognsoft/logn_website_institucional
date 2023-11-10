@@ -396,48 +396,6 @@ onDestroy(clearScript);
                       </div>
                     </div>
                   </div>
-                  <div class="card mb-2">
-                    <div class="card-header " id="heading-12">
-                      <h5 class="mb-0 faq-title">
-                        <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-12" aria-expanded="true" aria-controls="collapse-12">Módulo 11 - Programação Orientada a Objetos</button>
-                      </h5>
-                    </div>
-                    <div class="collapse " id="collapse-12" aria-labelledby="collapse-12" data-bs-parent="#accordion">
-                      <div class="card-body">
-                        <!-- <p class="faq-answer"> -->
-                          <ul class="faq-answer">
-                            <li>Origem</li>
-                            <li>PE x POO</li>
-                            <li>Fundamentação</li>
-                            <li>Polimorfismo ou Poliformismo</li>
-                            <li>Resumo dos Termos Empregados na POO</li>
-                          </ul>                                                                                                                                                                                                                                                                                                             
-                        <!-- </p> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card mb-2">
-                    <div class="card-header " id="heading-13">
-                      <h5 class="mb-0 faq-title">
-                        <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-13" aria-expanded="true" aria-controls="collapse-13">Módulo 12 - Aplicação Básica de POO</button>
-                      </h5>
-                    </div>
-                    <div class="collapse " id="collapse-13" aria-labelledby="collapse-13" data-bs-parent="#accordion">
-                      <div class="card-body">
-                        <!-- <p class="faq-answer"> -->
-                          <ul class="faq-answer">
-                            <li>Fundamentação</li>
-                            <li>Classe e Objeto</li>
-                            <li>Método Externo</li>
-                            <li>Método Interno</li>
-                            <li>Encapsulamento</li>
-                            <li>Herança</li>
-                            <li>Poliformismo</li>
-                        </ul>                                                                                                                                                                                                                                                                                
-                        <!-- </p> -->
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
