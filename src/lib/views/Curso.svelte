@@ -318,7 +318,7 @@ onDestroy(clearScript);
                   <div class="card mb-2">
                     <div class="card-header " id="heading-10">
                       <h5 class="mb-0 faq-title">
-                        <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="true" aria-controls="collapse-10">Módulo 09 - Estrutura de dados Hoterogêneas</button>
+                        <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="true" aria-controls="collapse-10">Módulo 09 - Estrutura de dados Heterogêneas</button>
                       </h5>
                     </div>
                     <div class="collapse " id="collapse-10" aria-labelledby="collapse-10" data-bs-parent="#accordion">
