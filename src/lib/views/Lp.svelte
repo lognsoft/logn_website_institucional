@@ -378,7 +378,7 @@ onDestroy(clearScript);
                   <div class="card mb-2">
                     <div class="card-header " id="heading-11">
                       <h5 class="mb-0 faq-title">
-                        <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-11" aria-expanded="true" aria-controls="collapse-11">Módulo 10 - Subprogramas</button>
+                        <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-11" aria-expanded="true" aria-controls="collapse-11">Módulo 10 - Subprogramas/Funções</button>
                       </h5>
                     </div>
                     <div class="collapse " id="collapse-11" aria-labelledby="collapse-11" data-bs-parent="#accordion">
