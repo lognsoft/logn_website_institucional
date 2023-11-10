@@ -153,22 +153,6 @@ onDestroy(clearScript);
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-6 ">
-                    <div class="info-item"><span class="info-number ">11.</span>
-                      <div class="info-content">
-                        <h5 class="info-title">Programação Orientada a Objetos</h5>
-                        <p class="info-text">Conceitos básicos de POO, incluindo classes, objetos, herança e polimorfismo.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6 ">
-                    <div class="info-item"><span class="info-number ">12.</span>
-                      <div class="info-content">
-                        <h5 class="info-title">Aplicação Básica de POO</h5>
-                        <p class="info-text">Implementação de conceitos de POO em aplicações práticas e desenvolvimento de pequenos projetos.</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
