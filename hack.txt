@@ -1,9 +1,0 @@
---| problemas encontrados e soluções |--
-
-
-#alteração
-    -arquivo: src/tools/index.js;
-    -problema: carregamento dinâmico em conflito com jquery;
-    -solução: rastrear arquivos de lib serem carregados estaticamente;
-    -nota: buscar elementos de lib em layouts comprados;
-/alteração
