@@ -1,0 +1,47 @@
+.content-none{
+    margin: 0 !important;
+}
+
+.content-none::before{
+    content: none !important;
+}
+
+.My-grid{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+}
+
+span.blue-title{
+    color: #09aff4 !important;
+}
+
+.btn-link-whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    left: 30px;
+    cursor: pointer!important;
+    background: #09aff4;
+    opacity: 1;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: .4s;
+    color: #fff;
+}
+
+.btn-link-whatsapp svg{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .My-grid{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
