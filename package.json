@@ -7,7 +7,7 @@
     "dev": "nodemon app.js"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "consign": "^0.1.6",
