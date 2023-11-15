@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "start": "node app.js",
     "build:digitalocean": "npm install --production=false && npm run build && npm ci",
     "dev": "nodemon app.js"
   },
