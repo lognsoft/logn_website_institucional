@@ -3,7 +3,6 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const consign = require('consign');
 const error = require('./middlewares/error');
-
 const app = express();
 
 // view engine setup
