@@ -2552,13 +2552,13 @@ Default Tab Style
 @media (max-width: 767.98px) {
   .slider__content .title {
     font-size: 18vw;
-    text-shadow: -1px 3px 0px rgba(69, 248, 130, 0.66);
+    text-shadow: -1px 3px 0px rgba(10, 174, 245, 0.66);
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider__content .title {
     font-size: 17vw;
-    text-shadow: -1px 5px 0px rgba(69, 248, 130, 0.66);
+    text-shadow: -1px 5px 0px rgba(10, 174, 245, 0.66);
   }
 }
 .slider__content p {
