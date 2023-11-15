@@ -21,6 +21,6 @@ consign()
 app.use(error.notFound);
 app.use(error.serverError);
 
-app.listen(3000, () => {
-  console.log('http://localhost:3000');
+app.listen(8080, () => {
+  console.log('sua aplicação esta no ar');
 })
