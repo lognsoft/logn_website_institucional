@@ -6,6 +6,9 @@
     "build:digitalocean": "npm install --production=false && npm run build && npm ci",
     "dev": "nodemon app.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "consign": "^0.1.6",
     "cookie-parser": "~1.4.4",
