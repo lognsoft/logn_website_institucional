@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm i && node app",
-    "dev": "nodemon app.js"
+    "start": "npm i && node app"
   },
   "dependencies": {
     "consign": "^0.1.6",

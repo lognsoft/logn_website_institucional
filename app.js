@@ -18,9 +18,12 @@ consign()
 .then('routes')
 .into(app);
 
+// get our port
+const port = process.env.PORT || 3000;
+
 app.use(error.notFound);
 app.use(error.serverError);
 
-app.listen(8080, () => {
+app.listen(port, () => {
   console.log('sua aplicação esta no ar');
 })
