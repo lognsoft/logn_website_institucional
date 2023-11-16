@@ -26,7 +26,7 @@ module.exports = app => {
         );
     });
 
-    app.get('/curso', (req, res) => {
+    app.get('/curso/programacao', (req, res) => {
         res.render(
             'details-single',
             {
@@ -50,6 +50,9 @@ module.exports = app => {
                 }
             }
         );
+    });
+    app.get('/LP', (req, res) => {
+        res.render('landing-page');
     });
 
 }
