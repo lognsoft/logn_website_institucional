@@ -51,8 +51,9 @@ module.exports = app => {
             }
         );
     });
+
     app.get('/LP', (req, res) => {
-        res.render('landing-page');
+        res.render('landing-page', { title: 'Curso de programação da Logn', router: 'landing-page'});
     });
 
 }

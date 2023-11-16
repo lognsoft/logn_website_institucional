@@ -37,57 +37,88 @@
     </button>
     <!-- Scroll-top-end-->
 
-    <%- include('./includes/inc.header.ejs') %>
+    <!-- header-area -->
+    <header>
+        <div id="sticky-header" class="tg-header__area transparent-header" style="padding: 15px 0;">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tgmenu__wrap">
+                            <nav class="tgmenu__nav">
+                                <div class="logo">
+                                    <a href="/"><img src="/images/logo/logo.png" alt="Logo"></a>
+                                </div>
+                                <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
+                                    <!-- <ul class="navigation">
+                                        <li class="<%- router === 'home' ? 'active ': '' %>menu-item-has-children"><a href="/">Home</a></li>
+                                        <li <%- router === 'cursos' ? "class=\"active\"" : '' %>><a href="/cursos">cursos</a></li>
+                                        <li <%- router === 'sobre' ? "class=\"active\"" : '' %>><a href="/sobre">sobre nós</a></li>
+                                        <li <%- router === 'contato' ? "class=\"active\"" : '' %>><a href="/contato">contato</a></li>
+                                    </ul> -->
+                                </div>
+                                <div class="tgmenu__action d-none d-md-block">
+                                    <ul class="list-wrap">
+                                        <li class="side-toggle-icon">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- offCanvas-area -->
+        <div class="offCanvas__wrap">
+            <div class="offCanvas__body">
+                <div class="offCanvas__top">
+                    <div class="offCanvas__logo logo">
+                        <a href="/"><img src="/images/logo/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="offCanvas__toggle">
+                        <i class="flaticon-swords-in-cross-arrangement"></i>
+                    </div>
+                </div>
+                <div class="offCanvas__content">
+                    <h2 class="title">Agende uma <span>visita</span></h2>
+                    <div class="offCanvas__contact">
+                        <h4 class="small-title">contate-nos</h4>
+                        <ul class="offCanvas__contact-list list-wrap">
+                            <li><a href="tel:19-93618.9503" target="_blank">19-93618.9503</a></li>
+                            <li><a href="mailto:contato@logn.com.br" target="_blank">contato@logn.com.br</a></li>
+                            <li><a href="https://www.google.com/maps?ll=-22.875806,-47.209399&z=19&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=5356591561626203440" target="_blank">edifício comercial metropolitan office tower.</a></li>
+                        </ul>
+                    </div>
+                    <ul class="offCanvas__social list-wrap">
+                        <li><a href="https://www.instagram.com/logncursos/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://wa.me/19936189503?text=Olá, vim do site e quero mais informações do curso de programação" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+                <div class="offCanvas__copyright">
+                    <p><span>LOGN</span> © 2023</p>
+                </div>
+            </div>
+        </div>
+        <div class="offCanvas__overlay"></div>
+        <!-- offCanvas-area-end -->
 
+    </header>
+    <!-- header-area-end -->
 
     <!-- main-area -->
     <main class="main--area">
 
-        <%- include('./includes/inc.banner.ejs') %>
+        
 
         <!-- services-details-area -->
         <section class="services__details-area section-pt-120 section-pb-120" data-background="/images/bg/team_details_bg.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <!-- <div class="team__details-img">
-                            <img src="/images/others/services_details.jpg" alt="img">
-                            <svg width="145" height="66" viewBox="0 0 145 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g opacity="0.95">
-                                    <path d="M11.94 56.1H0V65.38H11.94V56.1Z" fill="currentcolor"/>
-                                    <path d="M30.81 56.1H18.87V65.38H30.81V56.1Z" fill="currentcolor"/>
-                                    <path d="M49.37 56.1H37.47V65.38H49.37V56.1Z" fill="currentcolor"/>
-                                    <path d="M68.25 56.1H56.34V65.38H68.25V56.1Z" fill="currentcolor"/>
-                                    <path d="M87.81 56.1H75.91V65.38H87.81V56.1Z" fill="currentcolor"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M95.12 56.1H107.03V65.3799H95.12V56.1Z" fill="currentcolor"/>
-                                    <path d="M125.94 56.1H114V65.38H125.94V56.1Z" fill="currentcolor"/>
-                                    <path d="M144.5 56.1H132.56V65.38H144.5V56.1Z" fill="currentcolor"/>
-                                    <path d="M11.94 37.1H0V46.38H11.94V37.1Z" fill="currentcolor"/>
-                                    <path d="M30.81 37.1H18.87V46.38H30.81V37.1Z" fill="currentcolor"/>
-                                    <path d="M49.37 37.1H37.47V46.38H49.37V37.1Z" fill="currentcolor"/>
-                                    <path d="M68.25 37.1H56.34V46.38H68.25V37.1Z" fill="currentcolor"/>
-                                    <path d="M87.81 37.1H75.91V46.38H87.81V37.1Z" fill="currentcolor"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M95.12 37.1H107.03V46.3799H95.12V37.1Z" fill="currentcolor"/>
-                                    <path d="M125.94 37.1H114V46.38H125.94V37.1Z" fill="currentcolor"/>
-                                    <path d="M144.5 37.1H132.56V46.38H144.5V37.1Z" fill="currentcolor"/>
-                                    <path d="M11.94 18.53H0V27.85H11.94V18.53Z" fill="currentcolor"/>
-                                    <path d="M30.81 18.53H18.87V27.85H30.81V18.53Z" fill="currentcolor"/>
-                                    <path d="M49.37 18.53H37.47V27.85H49.37V18.53Z" fill="currentcolor"/>
-                                    <path d="M68.25 18.53H56.34V27.85H68.25V18.53Z" fill="currentcolor"/>
-                                    <path d="M87.81 18.53H75.91V27.85H87.81V18.53Z" fill="currentcolor"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M95.12 18.53H107.03V27.85H95.12V18.53Z" fill="currentcolor"/>
-                                    <path d="M125.94 18.53H114V27.85H125.94V18.53Z" fill="currentcolor"/>
-                                    <path d="M144.5 18.53H132.56V27.85H144.5V18.53Z" fill="currentcolor"/>
-                                    <path d="M11.94 0H0V9.28H11.94V0Z" fill="currentcolor"/>
-                                    <path d="M30.81 0H18.87V9.28H30.81V0Z" fill="currentcolor"/>
-                                    <path d="M49.37 0H37.47V9.28H49.37V0Z" fill="currentcolor"/>
-                                    <path d="M68.25 0H56.34V9.28H68.25V0Z" fill="currentcolor"/>
-                                    <path d="M86.81 0H74.91V9.28H86.81V0Z" fill="currentcolor"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M94.12 6.10352e-05H106.03V9.27997H94.12V6.10352e-05Z" fill="currentcolor"/>
-                                </g>
-                            </svg>
-                        </div> -->
                         <div class="team__details-content">
                             <span class="sub-title">Curso</span>
                             <h2 class="title" style="font-size: 35px">Veja como será essa jornada</h2>
@@ -96,17 +127,15 @@
                                 este é o curso ideal para você! Nosso foco principal é lógica de programação e algoritmos.
                                 Para escrever os códigos, usamos a linguagem de programação C# muito poderosa criada pela Microsoft.
                             </p>
-                            <!-- <p>Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa venenatis. Lorem Ipsum is simply dummyd the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. There are many variations of passages.</p> -->
-                            <!-- <blockquote class="team__details-quote">
-                                <p>Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euimods Nulla ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa venenatis. Lorem Ipsum is simply dummyd the printing and typesetting industry.</p>
-                                <cite>SHAKH DANIAL</cite>
-                            </blockquote> -->
                             <h2 class="title" style="font-size: 35px">O que você vai aprender</h2>
                             <p>
                                 Ao longo do curso, usaremos a linguagem de programação C#. No entanto,
                                 nosso foco primordial é aprofundar-se em algoritmos e lógica de programação,
                                 pilares essenciais para a formação de um programador de excelência.
                             </p>
+                            <div class="slider__btn" style="margin-bottom: 42px;">
+                                <a href="/contato" class="tg-btn-1"><span>Entrar em contato</span></a>
+                            </div>
                             <h2 class="title" style="font-size: 35px">Estruturado em 13 Módulos Essenciais!</h2>
                             <p>
                                 Com o objetivo de promover uma aprendizagem contínua e completa, desenhamos este curso em 13 módulos essenciais.
@@ -126,6 +155,9 @@
                                 Ao concluir o curso, o aluno receberá um certificado que atestará sua competência e dedicação no aprendizado.
                                 Esse documento servirá como uma comprovação do conhecimento adquirido e poderá ser usado para enriquecer seu currículo profissional.
                             </p>
+                            <div class="slider__btn" style="margin-bottom: 42px;">
+                                <a href="/contato" class="tg-btn-1"><span>Entrar em contato</span></a>
+                            </div>
                             <div class="team__details-inner-wrap">
                                 <div class="row My-grid">
                                     <div class="roadMap__steps-item active content-none">
@@ -188,6 +220,10 @@
                                             Abordagem sobre funções e procedimentos, ensinando a modularização do código.
                                         </p>
                                     </div>
+                                </div>
+                                
+                                <div class="slider__btn" style="margin-bottom: 42px;">
+                                    <a href="/contato" class="tg-btn-1"><span>Entrar em contato</span></a>
                                 </div>
                             </div>
                         </div>
@@ -393,6 +429,10 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                
+                                <div class="slider__btn" style="margin-bottom: 42px;">
+                                    <a href="/contato" class="tg-btn-1"><span>Entrar em contato</span></a>
                                 </div>
                             </div>
                         </div>
