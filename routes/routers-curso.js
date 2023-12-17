@@ -1,11 +1,23 @@
 module.exports = app => {
+
     app.get('/', (req, res) => {
-        res.render('index',{title: 'Logn', router: 'home'});
+        res.render('index',{
+            title: 'Logn',
+            router: 'sobre',
+            banner: {
+                page: 'Bem vindo a Logn'
+            }
+        });
+    })
+
+
+    app.get('/educa', (req, res) => {
+        res.render('curso-index',{title: 'Logn', router: 'home'});
     });
 
-    app.get('/sobre', (req, res) => {
+    app.get('/educa/sobre', (req, res) => {
         res.render(
-            'sobre',
+            'curso-sobre',
             {
                 title: 'Logn - Sobre',
                 router: 'sobre',
@@ -16,9 +28,9 @@ module.exports = app => {
         );
     });
 
-    app.get('/contato', (req, res) => {
+    app.get('/educa/contato', (req, res) => {
         res.render(
-            'contato',
+            'curso-contato',
             {
                 title: 'Logn - Contato',
                 router: 'contato'
@@ -26,9 +38,9 @@ module.exports = app => {
         );
     });
 
-    app.get('/curso/programacao', (req, res) => {
+    app.get('/educa/curso/programacao', (req, res) => {
         res.render(
-            'details-single',
+            'curso-details-single',
             {
                 title: 'Logn - Curso de programação',
                 router: 'curso',
@@ -39,9 +51,9 @@ module.exports = app => {
         );
     })
 
-    app.get('/cursos', (req, res) => {
+    app.get('/educa/cursos', (req, res) => {
         res.render(
-            'cursos',
+            'curso-cursos',
             {
                 title: 'Logn - Cursos',
                 router: 'cursos',
@@ -53,7 +65,7 @@ module.exports = app => {
     });
 
     app.get('/LP', (req, res) => {
-        res.render('landing-page', { title: 'Curso de programação da Logn', router: 'landing-page'});
+        res.render('curso-landing-page', { title: 'Curso de programação da Logn', router: 'landing-page'});
     });
 
 }

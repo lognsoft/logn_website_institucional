@@ -2,19 +2,9 @@
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
-    <title><%= title %></title>
-    <meta name="description" content="Descubra o aprendizado em uma escola que inspira tecnologia! Explore conosco o universo da programação, mergulhando na lógica de programação e algoritmos com a linguagem C# da Microsoft. Esteja preparado para uma jornada de descobrimento e aprimoramento no fascinante mundo da programação. Junte-se a nós e aprenda com uma escola que está imersa na essência da tecnologia!">
-    <meta name="author" content="Logn"/>
-    <meta name="robot" content="index,follow"/>
-    <meta name="keywords" content="curso de programação,curso de C#, C#,c#,programação para iniciantes,programação,desenvolvimento de software,back-end,curso básico de programação, logn, algoritmos, estrutura de dados"/>
+    <title><%- title %></title>
+    <meta name="robot" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="image" content="https://logn.com.br/images/slider/slider_bg.jpg" />
-    <meta name="canonical" content="https://logn.com.br/LP"/>
-    <!-- OG::tags -->
-    <meta property="og:title" content="<%- title %>"/>
-    <meta property="og:description" content="Descubra o aprendizado em uma escola que inspira tecnologia! Explore conosco o universo da programação, mergulhando na lógica de programação e algoritmos com a linguagem C# da Microsoft. Esteja preparado para uma jornada de descobrimento e aprimoramento no fascinante mundo da programação. Junte-se a nós e aprenda com uma escola que está imersa na essência da tecnologia!" />
-    <meta property="og:image" content="https://logn.com.br/images/slider/slider_bg.jpg" />
-    <meta property="og:url" content="https://logn.com.br/LP" />
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
 
@@ -33,444 +23,218 @@
     <link rel="stylesheet" href="/stylesheets/main.css">
     <link rel="stylesheet" href="/stylesheets/hack.css">
 
-<!-- Page-Revealer -->
-<script src="/javascripts/tg-page-head.js"></script>
-
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-52H4QX2B');</script>
-    <!-- End Google Tag Manager -->
-    
+    <!-- Page-Revealer -->
+    <script src="/javascripts/tg-page-head.js"></script>
 </head>
 
 <body>
+    <!-- header-area -->
+    <header>
+        <div id="sticky-header" class="tg-header__area transparent-header">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div> -->
+                        <div class="tgmenu__wrap">
+                            <nav class="tgmenu__nav">
+                                <div class="logo">
+                                    <a href="javascript:void(0)"><img src="/images/logo/logo.png" alt="Logo"></a>
+                                </div>
+                                <!-- <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
+                                    <ul class="navigation">
+                                        <li class="<%- router === 'home' ? 'active ': '' %>menu-item-has-children"><a href="/">Home</a></li>
+                                        <li <%- router === 'cursos' ? "class=\"active\"" : '' %>><a href="/cursos">cursos</a></li>
+                                        <li <%- router === 'sobre' ? "class=\"active\"" : '' %>><a href="/sobre">sobre nós</a></li>
+                                        <li <%- router === 'contato' ? "class=\"active\"" : '' %>><a href="/contato">contato</a></li>
+                                    </ul>
+                                </div> -->
+                                <!-- <div class="tgmenu__action d-none d-md-block">
+                                    <ul class="list-wrap">
+                                        <li class="side-toggle-icon">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                            </nav>
+                        </div>
+                        <!-- Mobile Menu  -->
+                        <!-- <div class="tgmobile__menu">
+                            <nav class="tgmobile__menu-box">
+                                <div class="close-btn"><i class="flaticon-swords-in-cross-arrangement"></i></div>
+                                <div class="nav-logo">
+                                    <a href="/"><img src="/images/logo/logo.png" alt="Logo"></a>
+                                </div>
+                                <div class="tgmobile__menu-outer">
+                                    Here Menu Will Come Automatically Via javascripts / Same Menu as in Header
+                                </div>
+                                <div class="social-links">
+                                    <ul class="list-wrap">
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="tgmobile__menu-backdrop"></div> -->
+                        <!-- End Mobile Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52H4QX2B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
+        <!-- offCanvas-area -->
+        <!-- <div class="offCanvas__wrap">
+            <div class="offCanvas__body">
+                <div class="offCanvas__top">
+                    <div class="offCanvas__logo logo">
+                        <a href="/"><img src="/images/logo/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="offCanvas__toggle">
+                        <i class="flaticon-swords-in-cross-arrangement"></i>
+                    </div>
+                </div>
+                <div class="offCanvas__content">
+                    <h2 class="title">Agende uma <span>visita</span></h2>
+                    <div class="offCanvas__contact">
+                        <h4 class="small-title">contate-nos</h4>
+                        <ul class="offCanvas__contact-list list-wrap">
+                            <li><a href="tel:19-93618.9503" target="_blank">19-93618.9503</a></li>
+                            <li><a href="mailto:contato@logn.com.br" target="_blank">contato@logn.com.br</a></li>
+                            <li><a href="https://www.google.com/maps?ll=-22.875806,-47.209399&z=19&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=5356591561626203440" target="_blank">edifício comercial metropolitan office tower.</a></li>
+                        </ul>
+                    </div>
+                    <ul class="offCanvas__social list-wrap">
+                        <li><a href="https://www.instagram.com/logncursos/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://wa.me/19936189503?text=Olá, vim do site e quero mais informações do curso de programação" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+                <div class="offCanvas__copyright">
+                    <p><span>LOGN</span> © 2023</p>
+                </div>
+            </div>
+        </div>
+        <div class="offCanvas__overlay"></div> -->
+        <!-- offCanvas-area-end -->
 
-
-    <!-- scroll-top -->
-    <button class="scroll__top scroll-to-target" data-target="html">
-        <i class="flaticon-right-arrow"></i>
-    </button>
-    <!-- scroll-top-end-->
-
-    
-    <%-  include('./includes/inc.header.ejs') %>
-
+    </header>
+    <!-- header-area-end -->
 
 
     <!-- main-area -->
     <main class="main--area">
 
-        <!-- slider-area -->
-        <section class="slider__area slider__bg" data-background="/images/slider/slider_bg.jpg">
-            <div class="slider-activee">
-                <div class="single-slider">
-                    <div class="container custom-container">
-                        <div class="row justify-content-between">
-                            <div class="col-lg-6">
-                                <div class="slider__content">
-                                    <h6 class="sub-title wow fadeInUp" data-wow-delay=".2s">Tecnologia</h6>
-                                    <h2 class="title wow fadeInUp" data-wow-delay=".5s">Aprenda</h2>
-                                    <p class="wow fadeInUp" data-wow-delay=".8s">Em Uma escola que respira tecnologia!</p>
-                                    <div class="slider__btn wow fadeInUp" data-wow-delay="1.2s">
-                                        <a href="/contato" class="tg-btn-1"><span>Contato</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-6 col-xl-5 col-lg-6">
-                                <div class="slider__img text-center">
-                                    <img src="/images/slider/slider_img01.png" data-magnetic alt="img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider__shapes">
-                <img src="/images/slider/slider_shape01.png" alt="shape">
-                <img src="/images/slider/slider_shape02.png" alt="shape">
-                <img src="/images/slider/slider_shape03.png" alt="shape">
-                <img src="/images/slider/slider_shape04.png" alt="shape">
-            </div>
-            <!--<div class="slider__brand-wrap">
-                <div class="container custom-container">
-                    <ul class="slider__brand-list list-wrap">
-                        <li><a href="#"><img src="/images/brand/brand_logo01.png" alt="brand"></a></li>
-                        <li><a href="#"><img src="/images/brand/brand_logo02.png" alt="brand"></a></li>
-                        <li><a href="#"><img src="/images/brand/brand_logo03.png" alt="brand"></a></li>
-                    </ul>
-                </div>
-            </div>-->
-        </section>
-        <!-- slider-area-end -->
-
-        <!-- NFT-item-area 
-        <section class="nft-item__area">
-            <div class="container custom-container">
-                <div class="row justify-content-center">
-                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9">
-                        <div class="nft-item__box">
-                            <div class="nft-item__thumb">
-                                <a href="shop-details.html"><img src="/images/nft/nft_img01.jpg" alt="img"></a>
-                            </div>
-                            <div class="nft-item__content">
-                                <h4 class="title"><a href="shop-details.html">wolf gaming art</a></h4>
-                                <div class="nft-item__avatar">
-                                    <div class="avatar-img">
-                                        <a href="shop-details.html"><img src="/images/nft/nft_avatar.png" alt="img"></a>
-                                    </div>
-                                    <div class="avatar-name">
-                                        <h5 class="name"><a href="shop-details.html">Alax Max</a></h5>
-                                        <span class="designation">Creator</span>
-                                    </div>
-                                </div>
-                                <div class="nft-item__bid">
-                                    <div class="nft-item__price">
-                                        <p>1.002 <span class="currency">Eth</span></p>
-                                        <a href="shop-details.html" class="bid-btn">Bid <i class="fas fa-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9">
-                        <div class="nft-item__box">
-                            <div class="nft-item__thumb">
-                                <a href="shop-details.html"><img src="/images/nft/nft_img02.jpg" alt="img"></a>
-                            </div>
-                            <div class="nft-item__content">
-                                <h4 class="title"><a href="shop-details.html">Forest Princess</a></h4>
-                                <div class="nft-item__avatar">
-                                    <div class="avatar-img">
-                                        <a href="shop-details.html"><img src="/images/nft/nft_avatar.png" alt="img"></a>
-                                    </div>
-                                    <div class="avatar-name">
-                                        <h5 class="name"><a href="shop-details.html">Alax Max</a></h5>
-                                        <span class="designation">Creator</span>
-                                    </div>
-                                </div>
-                                <div class="nft-item__bid">
-                                    <div class="nft-item__price">
-                                        <p>1.053 <span class="currency">Eth</span></p>
-                                        <a href="shop-details.html" class="bid-btn">Bid <i class="fas fa-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9">
-                        <div class="nft-item__box">
-                            <div class="nft-item__thumb">
-                                <a href="shop-details.html"><img src="/images/nft/nft_img03.jpg" alt="img"></a>
-                            </div>
-                            <div class="nft-item__content">
-                                <h4 class="title"><a href="shop-details.html">girl firefly art</a></h4>
-                                <div class="nft-item__avatar">
-                                    <div class="avatar-img">
-                                        <a href="shop-details.html"><img src="/images/nft/nft_avatar.png" alt="img"></a>
-                                    </div>
-                                    <div class="avatar-name">
-                                        <h5 class="name"><a href="shop-details.html">Alax Max</a></h5>
-                                        <span class="designation">Creator</span>
-                                    </div>
-                                </div>
-                                <div class="nft-item__bid">
-                                    <div class="nft-item__price">
-                                        <p>1.024 <span class="currency">Eth</span></p>
-                                        <a href="shop-details.html" class="bid-btn">Bid <i class="fas fa-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         NFT-item-area-end -->
-
-        <!-- area-background-start -->
-        <div class="area-background" data-background="/images/bg/area_bg01.jpg">
-
-        <!-- about-area -->
-        <section class="about__area section-pt-130 section-pb-130">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-7 col-md-10">
-                        <div class="section__title text-center mb-60">
-                            <span class="sub-title tg__animate-text">Entre em contato</span>
-                            <h3 class="title">O que está esperando?</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="about__tab-wrap">
-                            <div class="about__buttons">
-                                <a href="/cursos" class="tg-btn-2">Quero me tornar um programador!</a>
-                                <!-- <a href="shop.html" class="tg-btn-2 -secondary">Quero um software</a> -->
-                            </div>
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="about01-tab" data-bs-toggle="tab" data-bs-target="#about01" type="button" role="tab" aria-controls="about01" aria-selected="true"><span class="img-shape"></span><img src="/images/others/about_tab01.png" alt="img"></button>
-                                </li>
-                                <!-- <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="about02-tab" data-bs-toggle="tab" data-bs-target="#about02" type="button" role="tab" aria-controls="about02" aria-selected="false"><span class="img-shape"></span><img src="/images/others/about_tab02.png" alt="img"></button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="about03-tab" data-bs-toggle="tab" data-bs-target="#about03" type="button" role="tab" aria-controls="about03" aria-selected="false"><span class="img-shape"></span><img src="/images/others/about_tab03.png" alt="img"></button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="about04-tab" data-bs-toggle="tab" data-bs-target="#about04" type="button" role="tab" aria-controls="about04" aria-selected="false"><span class="img-shape"></span><img src="/images/others/about_tab04.png" alt="img"></button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="about05-tab" data-bs-toggle="tab" data-bs-target="#about05" type="button" role="tab" aria-controls="about05" aria-selected="false"><span class="img-shape"></span><img src="/images/others/about_tab05.png" alt="img"></button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="about06-tab" data-bs-toggle="tab" data-bs-target="#about06" type="button" role="tab" aria-controls="about06" aria-selected="false"><span class="img-shape"></span><img src="/images/others/about_tab06.png" alt="img"></button>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane show active" id="about01" role="tabpanel" aria-labelledby="about01-tab">
-                        <div class="row justify-content-center">
-                            <!-- <div class="col-xl-5 col-lg-10">
-                                <div class="about__img">
-                                    <img src="/images/others/about_img01.jpg" alt="img">
-                                </div>
-                            </div> -->
-                            <div class="col-xl-7 col-lg-10">
-                                <div class="about__flex-wrap">
-                                    <div class="about__content-wrap">
-                                        <div class="about__content">
-                                            <h4 class="title">Programação para iniciantes</h4>
-                                            <span class="rate">Nivel: Básico</span>
-                                            <p>Este curso é indicado para quem deseja adquirir uma base sólida na programação,
-                                                O curso também é indicado tanto para aqueles que precisam fortalecer seus
-                                                conhecimentos acadêmicos quanto para profissionais já atuantes na área.</p>
-                                        </div>
-                                        <div class="about__content-list">
-                                            <ul class="list-wrap">
-                                                <li><img src="/images/icons/csharp.png" alt="img"> Linguagem - C#</li>
-                                                <li><img src="/images/icons/logica.png" alt="img"> Lógica de programação</li>
-                                                <li><img src="/images/icons/algoritmo.png" alt="img"> Algoritmos</li>
-                                                <li><img src="/images/icons/estrutura.png" alt="img"> Estrutura de dados</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="about__btn-wrap">
-                                        <ul class="list-wrap">
-                                            <li><a href="/curso/programacao">Ver Curso</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <!-- about-area-end -->
-
-        <!-- gallery-area -->
-        <!-- <section class="gallery__area fix section-pb-130">
-            <div class="gallery__slider">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-9 col-lg-10 col-md-11">
-                            <div class="swiper-container gallery-active">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="gallery__item">
-                                            <div class="gallery__thumb">
-                                                <a href="/images/gallery/gallery01.jpg" data-cursor="-theme" data-cursor-text="View <br> Image" class="popup-image" title="PUBG Tournament"><img src="/images/gallery/gallery01.jpg" alt="img"></a>
-                                            </div>
-                                            <div class="gallery__content">
-                                                <h3 class="title">pubg tournament</h3>
-                                                <span class="rate">rate 50%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="gallery__item">
-                                            <div class="gallery__thumb">
-                                                <a href="/images/gallery/gallery02.jpg" data-cursor="-theme" data-cursor-text="View <br> Image" class="popup-image" title="Assassin's Creed"><img src="/images/gallery/gallery02.jpg" alt="img"></a>
-                                            </div>
-                                            <div class="gallery__content">
-                                                <h3 class="title">Assassin's Creed</h3>
-                                                <span class="rate">rate 65%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="gallery__item">
-                                            <div class="gallery__thumb">
-                                                <a href="/images/gallery/gallery03.jpg" data-cursor="-theme" data-cursor-text="View <br> Image" class="popup-image" title="World of Warcraft"><img src="/images/gallery/gallery03.jpg" alt="img"></a>
-                                            </div>
-                                            <div class="gallery__content">
-                                                <h3 class="title">World of Warcraft</h3>
-                                                <span class="rate">rate 60%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="gallery__item">
-                                            <div class="gallery__thumb">
-                                                <a href="/images/gallery/gallery04.jpg" data-cursor="-theme" data-cursor-text="View <br> Image" class="popup-image" title="The Chant 2"><img src="/images/gallery/gallery04.jpg" alt="img"></a>
-                                            </div>
-                                            <div class="gallery__content">
-                                                <h3 class="title">The Chant s.2</h3>
-                                                <span class="rate">rate 70%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="gallery__item">
-                                            <div class="gallery__thumb">
-                                                <a href="/images/gallery/gallery05.jpg" data-cursor="-theme" data-cursor-text="View <br> Image" class="popup-image" title="Dota 2 tournament"><img src="/images/gallery/gallery05.jpg" alt="img"></a>
-                                            </div>
-                                            <div class="gallery__content">
-                                                <h3 class="title">Dota 2 tournament</h3>
-                                                <span class="rate">rate 85%</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                scrollbar
-                                <div class="swiper-scrollbar"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- gallery-area-end -->
-
-        </div>
-        <!-- area-background-end -->
-
-        <!-- team-area -->
-        <section class="team__area team-bg section-pt-130 section-pb-100" data-background="/images/bg/team_bg.jpg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-7 col-md-10">
-                        <div class="section__title text-center mb-60">
-                            <!-- <span class="sub-title tg__animate-text">Conheça nosso time</span> -->
-                            <h3 class="title">Conheça nosso time</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="team__item">
-                            <div class="team__thumb">
-                                <a href="javascript:void(0)"><img src="/images/team/team03.jpg" alt="img"></a>
-                            </div>
-                            <div class="team__content">
-                                <h4 class="name"><a href="javascript:void(0)">Ana Guizele</a></h4>
-                                <span class="designation">Administradora</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="team__item">
-                            <div class="team__thumb">
-                                <a href="javascript:void(0)"><img src="/images/team/team01.jpg" alt="img"></a>
-                            </div>
-                            <div class="team__content">
-                                <h4 class="name"><a href="javascript:void(0)">Bruno Bafilli</a></h4>
-                                <span class="designation">Mentor/Desenvolvedor</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="team__item">
-                            <div class="team__thumb">
-                                <a href="javascript:void(0)"><img src="/images/team/team02.jpg" alt="img"></a>
-                            </div>
-                            <div class="team__content">
-                                <h4 class="name"><a href="javascript:void(0)">Alan Tavares</a></h4>
-                                <span class="designation">Desenvolvedor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- team-area-end -->
-
-        <!-- roadMap-area -->
-        <section class="roadMap__area roadMap-bg section-pt-150 section-pb-150" data-background="/images/bg/roadmap_bg.jpg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="roadMap__inner">
-                            <div class="row">
-                                <div class="col-xl-5 col-lg-6">
-                                    <div class="roadMap__content" style="margin-bottom: 45px;">
-                                        <h2 class="title">Um futuro emocionante e repleto de oportunidades.</h2>
-                                        <p>Valorizamos o desenvolvimento pessoal de cada aluno, sua criatividade e a capacidade de resolver problemas. Ao estudar programação conosco, você estará em constante evolução. Junte-se a nós nessa empolgante jornada de aprendizado e começe a moldar o seu futuro hoje mesmo!</p>
-                                        <a href="/sobre" class="tg-btn-1 -btn-yellow"><span>Sobre nós</span></a>
-                                    </div>
-                                    <!-- <div class="roadMap__img">
-                                        <img src="/images/others/roadmap.png" class="tg-parallax" data-scale="1.5" data-orientation="down" alt="">
-                                    </div> -->
-                                </div>
-                                <div class="col-xl-7 col-lg-6">
-                                    <div class="roadMap__steps-wrap">
-                                        <div class="roadMap__steps-item active">
-                                            <h3 class="title"><span class="blue-title">01.</span> Tecnologia de ponta</h3>
-                                            <p>
-                                                A Logn está comprometida em manter-se atualizada com as tecnologias mais recentes e relevantes do mercado. Isso significa que você estará aprendendo com as ferramentas e práticas mais atuais.
-                                            </p>
-                                        </div>
-                                        <div class="roadMap__steps-item">
-                                            <h3 class="title"><span class="blue-title">02.</span> Teoria e prática</h3>
-                                            <p>
-                                                Além da teoria, temos foco na aplicação prática. Você aprenderá os conceitos básicos e fundamentais da programação e também trabalhará em projetos do mundo real que refletem os desafios que os programadores enfrentam no dia a dia.
-                                            </p>
-                                        </div>
-                                        <div class="roadMap__steps-item">
-                                            <h3 class="title"><span class="blue-title">03.</span> Mentoria personalizada</h3>
-                                            <p>
-                                                Você terá acesso a sessões de mentoria individualizada para esclarecer dúvidas e receber orientações específicas para o seu progresso.
-                                            </p>
-                                        </div>
-                                        <div class="roadMap__steps-item">
-                                            <h3 class="title"><span class="blue-title">04.</span> Número limitado de alunos por turma</h3>
-                                            <p>
-                                                Nossas turmas são propositalmente pequenas, com número limitado de 06 alunos, isso garante que o mentor proporcione atenção individualizada para cada estudante.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- roadMap-area-end -->
-
         
+
+        <!-- services-details-area -->
+        <section class="services__details-area section-pt-120 section-pb-120" data-background="/images/bg/team_details_bg.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="team__details-content">
+                            <span class="sub-title">bem-vindo a logn</span>
+                            <h2 class="title" style="font-size: 35px">O que você procura?</h2>
+                            <!-- <div class="about__buttons">
+                                <a href="/" class="tg-btn-2">Voltar para página inicial!</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center" style="margin-top: 100px">
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="team__item">
+                            <div class="team__thumb">
+                                <a href="/servicos"><img class="my-card-img" src="/images/service.svg" alt="img"></a>
+                            </div>
+                            <div class="team__content">
+                                <h4 class="name"><a href="/servicos">Serviços</a></h4>
+                                <span class="designation">Conheça nossos cursos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="team__item">
+                            <div class="team__thumb">
+                                <a href="/educa"><img class="my-card-img" src="/images/curso.svg" alt="img"></a>
+                            </div>
+                            <div class="team__content">
+                                <h4 class="name"><a href="/educa">Escola</a></h4>
+                                <span class="designation">Conheça nossos cursos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services-details-area-end -->
 
     </main>
     <!-- main-area-end -->
 
 
-    <%- include('./includes/inc.footer.ejs') %>
-
-
+    <!-- footer-start -->
+    <footer class="footer-style-one">
+        <div class="footer__top-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5 col-md-7">
+                        <div class="footer-widget">
+                            <div class="footer-logo logo">
+                                <a href="/"><img src="/images/logo/logo.png" alt="Logo"></a>
+                            </div>
+                            <!-- <div class="footer-text">
+                                <p class="desc">
+                                    Acreditamos que aprender a programar é mais do que apenas escrever códigos;
+                                    é sobre resolver problemas, pensar de forma lógica e criar soluções inovadoras para o mundo.</p>
+                                <p class="social-title">Agende uma <span>visita <i class="fas fa-angle-double-right"></i></span></p>
+                                <div class="footer-social">
+                                    <a href="#"><img src="/images/icons/social_icon03.png" alt="iocn"></a>
+                                    <a href="#"><img src="/images/icons/social_icon04.png" alt="iocn"></a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-2 col-lg-3 col-md-5 col-sm-6">
+                        <div class="footer-widget widget_nav_menu">
+                            <h4 class="fw-title">Medias sociais</h4>
+                            <ul class="list-wrap menu">
+                                <li title="instagram"><a href="https://www.instagram.com/logncursos/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                    </svg>
+                                    instagram
+                                </a></li>
+                                <li title="whatsapp"><a href="https://wa.me/19936189503?text=Olá, vim do site e quero mais informações do curso de programação." target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                    </svg>
+                                    whatsapp
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="copyright__wrap">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col text-center">
+                        <div class="copyright__text">
+                            <p><span>LOGN</span> © 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="https://wa.me/19936189503?text=Olá! Tenho interesse e queria mais informações, por favor." target="_blank" class="btn-link-whatsapp svelte-1fj60zz" title="whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-whatsapp svelte-1fj60zz" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+            </svg>
+        </a> -->
+    </footer>
+    <!-- footer-start-end -->
     <!-- JS here -->
     <script src="/javascripts/vendor/jquery-3.6.0.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>

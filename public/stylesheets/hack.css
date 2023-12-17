@@ -39,9 +39,22 @@ span.blue-title{
     height: 30px;
 }
 
+.my-card-img{
+    max-width: 100% !important;
+    height: auto !important;
+    background-color: #0d141b;
+}
+
+#sticky-header{
+    padding: 20px 0;
+}
+
 
 @media screen and (max-width: 900px) {
     .My-grid{
         grid-template-columns: repeat(1, 1fr) !important;
     }
 }
+
+
+/* área de serviços do site */

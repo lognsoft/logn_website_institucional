@@ -24,5 +24,5 @@ app.use(error.notFound);
 app.use(error.serverError);
 
 app.listen(port, () => {
-  console.log('sua aplicação esta no ar');
+  console.log(`sua aplicação esta no ar na porta ${port}`);
 })
