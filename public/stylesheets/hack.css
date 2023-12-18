@@ -16,6 +16,14 @@ span.blue-title{
     color: #09aff4 !important;
 }
 
+.my-blue-font-color{
+    color: #09aff4 !important;;
+}
+.my-line-height span{
+    display: inline-block;
+    margin-top: 5px;
+}
+
 .btn-link-whatsapp{
     position: fixed;
     width: 60px;
