@@ -49,6 +49,10 @@ span.blue-title{
     padding: 20px 0;
 }
 
+#card-area{
+    height: 100vh;
+}
+
 
 @media screen and (max-width: 900px) {
     .My-grid{
