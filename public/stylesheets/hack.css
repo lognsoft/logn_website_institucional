@@ -49,15 +49,22 @@ span.blue-title{
     padding: 20px 0;
 }
 
-#card-area{
-    height: 100vh;
+#card-page,
+#card-page-body,
+#card-main{
+    height: 100%;
 }
-#card-area-footer{
+
+#card-area{
+    height: 100%;
+    min-height: 800px;
+}
+/* #card-area-footer{
     position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
-}
+} */
 
 
 @media screen and (max-width: 900px) {
