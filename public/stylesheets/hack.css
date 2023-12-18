@@ -67,12 +67,10 @@ span.blue-title{
     height: 100%;
     min-height: 800px;
 }
-/* #card-area-footer{
-    position: fixed;
+#card-area-footer{
+    position: static !important;
     width: 100%;
-    bottom: 0;
-    left: 0;
-} */
+}
 
 
 @media screen and (max-width: 900px) {
