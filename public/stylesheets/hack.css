@@ -72,6 +72,12 @@ span.blue-title{
     width: 100%;
 }
 
+.main-img.reposition-partner{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 @media screen and (max-width: 900px) {
     .My-grid{
