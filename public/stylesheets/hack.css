@@ -92,7 +92,7 @@ span.blue-title{
     justify-content: center;
     border: 2px solid var(--tg-common-color-white);
     border-radius: 50%;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .avaliacao{
@@ -112,8 +112,20 @@ span.blue-title{
 
 .formacao svg{
     color: #09aff4;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.do-curso{
+    margin-top: 30px !important;
+}
+
+ul.list-curso{
+    color: #ffbe18 !important;
+    font-size: 20px !important;
+}
+ul.list-curso > li > span{
+    color: #adb0bc !important;
 }
 
 
