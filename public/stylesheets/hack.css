@@ -78,6 +78,32 @@ span.blue-title{
     transform: translate(-50%,-50%);
 }
 
+.my-popup-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.my-popup-video{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--tg-common-color-white);
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    color: #ffbe18;
+}
+
 
 @media screen and (max-width: 900px) {
     .My-grid{

@@ -38,17 +38,35 @@ module.exports = app => {
         );
     });
 
-    app.get('/educa/curso/programacao', (req, res) => {
-        res.render(
-            'curso-details-single',
-            {
-                title: 'Logn - Curso de programação',
-                router: 'curso',
-                banner:{
-                    page: 'programação para iniciantes'
+    app.get('/educa/curso/:curso', (req, res) => {
+        const { curso } = req.params;
+        let page = null;
+        let data = {};
+
+        if(curso === 'programacao-para-iniciantes' || curso === 'programacao-para-iniciantes-online'){
+            if(curso === 'programacao-para-iniciantes'){
+                page = 'curso-details-single'
+                data = {
+                    title: 'Logn - Programação para inciantes',
+                    router: 'curso',
+                    banner:{
+                        page: 'programação para iniciantes'
+                    }
+                }
+            } else {
+                page = 'curso-details-online';
+                data = {
+                    title: 'Logn - Programação para inciantes',
+                    router: 'curso',
+                    banner:{
+                        page: 'programação para iniciantes'
+                    }
                 }
             }
-        );
+            res.render(page,data);
+        } else {
+            res.redirect('/404');
+        }
     })
 
     app.get('/educa/cursos', (req, res) => {

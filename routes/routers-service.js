@@ -30,7 +30,7 @@ module.exports = (app) => {
         res.render(
             'service-partner',
             {
-                title: 'Logn - Contato',
+                title: 'Logn - Nossos parceiros',
                 router: 'parceiros',
                 banner: {
                     page: 'nossos parceiros'
