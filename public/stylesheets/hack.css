@@ -135,6 +135,15 @@ ul.list-curso > li > span{
     color: #adb0bc !important;
 }
 
+.mb-title{
+    font-size: 6vw !important;
+}
+@media screen and (max-width: 991px) {
+    .mb-title{
+        font-size: 11vw !important;
+    }
+    
+}
 
 @media screen and (max-width: 900px) {
     .My-grid{
