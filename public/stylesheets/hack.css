@@ -103,6 +103,18 @@ span.blue-title{
     padding-left: 0;
     color: #ffbe18;
 }
+.formacao > div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.formacao svg{
+    color: #09aff4;
+    width: 30px;
+    height: 30px;
+}
 
 
 @media screen and (max-width: 900px) {
