@@ -77,6 +77,9 @@ span.blue-title{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.main-img.max-width-482{
+    max-width: 482px !important;
+}
 
 .my-popup-container{
     display: flex;
