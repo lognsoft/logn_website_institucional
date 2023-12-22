@@ -106,8 +106,11 @@ span.blue-title{
     padding-left: 0;
     color: #ffbe18;
 }
+.formacao{
+    row-gap: 20px;
+}
 .formacao > div{
-    padding: 10px;
+    padding: 0 10px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -125,7 +128,8 @@ span.blue-title{
 
 ul.list-curso{
     color: #ffbe18 !important;
-    font-size: 20px !important;
+    row-gap: 20px;
+    /* font-size: 20px !important; */
 }
 ul.list-curso > li > span{
     color: #adb0bc !important;
