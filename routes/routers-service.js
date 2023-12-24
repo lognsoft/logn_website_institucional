@@ -45,6 +45,11 @@ module.exports = (app) => {
                         title: 'Agência BUZY',
                         text: 'A Agência Buzy é mais do que uma empresa de publicidade; é um compromisso inabalável com a dedicação e profissionalismo. Nosso nome não é apenas um rótulo, é um reflexo do nosso empenho incansável em entregar soluções de excelência. Na Agência Buzy, cada projeto é uma oportunidade de demonstrar nossa paixão pela criatividade e pelo compromisso com o sucesso dos nossos clientes. Confie na Buzy para elevar sua marca ao próximo nível, onde dedicação e profissionalismo se unem para criar impacto duradouro.',
                         img: 'buzy-logo.png'
+                    },
+                    {
+                        title: 'MKT BRABO',
+                        text: 'Conheça a MKT BRABO, sua parceira estratégica em marketing para lojas de iPhone. Especializados na promoção de marcas Apple, oferecemos soluções sob medida para impulsionar sua presença digital. Ao se associar à MKT BRABO, sua empresa ganha uma aliada dedicada a destacar suas inovações e aprimorar sua visibilidade no competitivo cenário tecnológico. Juntos, vamos alcançar novos patamares e conquistar o mercado de tecnologia com expertise e criatividade.',
+                        img: 'mkt-brabo-logo.png'
                     }
                 ]
             }
