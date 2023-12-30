@@ -380,8 +380,6 @@
             </div>
         </section>
 
-        
-
         <section class="shop-area shop-details-area">
             <div class="container">
                 <div class="related__product-area">
@@ -428,6 +426,18 @@
                 </p>
             </div>
         </section>
+
+        
+        <!-- Gráfico de média salárial -->
+        <section class="shop-area shop-details-area">
+            <div class="container">
+                <h2 class="title" style="font-size: 35px">Média salárial de um desenvolvedor C#</h2>
+                <div class="container-graphic">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </section>
+        <!-- fim Gráfico de média salárial -->
 
         <section class="services__details-area section-pt-120 section-pb-120" data-background="/images/bg/team_details_bg.jpg">
             <div class="container">
@@ -514,73 +524,6 @@
             </div>
         </section>
 
-        
-
-        
-
-        <!-- project-area -->
-        <!-- <section class="project-area project-bg section-pt-120 section-pb-140">
-            <div class="container custom-container">
-                <div class="project__wrapper">
-                    <div class="section__title text-start">
-                        <h3 class="title">PROJECTS MYKD</h3>
-                        <span class="sub-title tg__animate-text">our LATEST gallery</span>
-                    </div>
-                    <div class="swiper-container project-active">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_01.jpg" class="popup-image"><img src="/images/gallery/project_01.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_02.jpg" class="popup-image"><img src="/images/gallery/project_02.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_03.jpg" class="popup-image"><img src="/images/gallery/project_03.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_04.jpg" class="popup-image"><img src="/images/gallery/project_04.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_05.jpg" class="popup-image"><img src="/images/gallery/project_05.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_06.jpg" class="popup-image"><img src="/images/gallery/project_06.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_07.jpg" class="popup-image"><img src="/images/gallery/project_07.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project__item">
-                                    <a href="/images/gallery/project_08.jpg" class="popup-image"><img src="/images/gallery/project_08.jpg" alt="img"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-button-prev">
-                        <i class="flaticon-right-arrow"></i>
-                        <i class="flaticon-right-arrow"></i>
-                    </div>
-                </div>
-            </div>
-            scrollbar
-            <div class="swiper-scrollbar"></div>
-        </section> -->
-        <!-- project-area-end -->
-
     </main>
     <!-- main-area-end -->
 
@@ -592,27 +535,61 @@
 
 
     <!-- JS here -->
-    <script src="/javascripts//vendor/jquery-3.6.0.min.js"></script>
-    <script src="/javascripts//bootstrap.min.js"></script>
-    <script src="/javascripts//jquery.magnific-popup.min.js"></script>
-    <script src="/javascripts//jquery.countdown.min.js"></script>
-    <script src="/javascripts//jquery.waypoints.min.js"></script>
-    <script src="/javascripts//jquery.odometer.min.js"></script>
-    <script src="/javascripts//simpleParallax.min.js"></script>
-    <script src="/javascripts//jquery-ui.min.js"></script>
-    <script src="/javascripts//gsap.min.js"></script>
-    <script src="/javascripts//scrollTrigger.min.js"></script>
-    <script src="/javascripts//splitText.min.js"></script>
-    <script src="/javascripts//jquery.appear.js"></script>
-    <script src="/javascripts//tg-cursor.min.js"></script>
-    <script src="/javascripts//swiper-bundle.js"></script>
-    <script src="/javascripts//jarallax.min.js"></script>
-    <script src="/javascripts//parallax.min.js"></script>
-    <script src="/javascripts//slick.min.js"></script>
-    <script src="/javascripts//ajax-form.js"></script>
-    <script src="/javascripts//vivus.min.js"></script>
-    <script src="/javascripts//wow.min.js"></script>
-    <script src="/javascripts//main.js"></script>
+    <script src="/javascripts/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/jquery.magnific-popup.min.js"></script>
+    <script src="/javascripts/jquery.countdown.min.js"></script>
+    <script src="/javascripts/jquery.waypoints.min.js"></script>
+    <script src="/javascripts/jquery.odometer.min.js"></script>
+    <script src="/javascripts/simpleParallax.min.js"></script>
+    <script src="/javascripts/jquery-ui.min.js"></script>
+    <script src="/javascripts/gsap.min.js"></script>
+    <script src="/javascripts/scrollTrigger.min.js"></script>
+    <script src="/javascripts/splitText.min.js"></script>
+    <script src="/javascripts/jquery.appear.js"></script>
+    <script src="/javascripts/tg-cursor.min.js"></script>
+    <script src="/javascripts/swiper-bundle.js"></script>
+    <script src="/javascripts/jarallax.min.js"></script>
+    <script src="/javascripts/parallax.min.js"></script>
+    <script src="/javascripts/slick.min.js"></script>
+    <script src="/javascripts/ajax-form.js"></script>
+    <script src="/javascripts/vivus.min.js"></script>
+    <script src="/javascripts/wow.min.js"></script>
+    <script src="/javascripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+      
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['junior', 'Pleno', 'Senior'],
+            datasets: [
+                {
+                    label: 'Por mês',
+                    data: [3000, 5500, 7049],
+                    borderWidth: 1,
+                    backgroundColor: '#089fdd',
+                },
+                {
+                    label: 'Por ano',
+                    data: [36000, 66000, 84585],
+                    borderWidth: 1,
+                    backgroundColor: '#a608db',
+                },
+            ]
+          },
+          options: {
+            aspectRatio: 1.5,
+            animation: true,
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+    </script>
 </body>
 
 </html>
