@@ -561,35 +561,25 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         const ctx = document.getElementById('myChart');
-      
-        new Chart(ctx, {
-          type: 'bar',
-          data: {
+        const data = {
             labels: ['junior', 'Pleno', 'Senior'],
             datasets: [
                 {
-                    label: 'Por mês',
                     data: [3000, 5500, 7049],
                     borderWidth: 1,
-                    backgroundColor: '#089fdd',
-                },
-                {
-                    label: 'Por ano',
-                    data: [36000, 66000, 84585],
-                    borderWidth: 1,
-                    backgroundColor: '#a608db',
-                },
+                    backgroundColor: [
+                        '#089fdd',
+                        "#0867db",
+                        "#0808d8"
+                    ]
+                }
             ]
-          },
-          options: {
-            aspectRatio: 1.5,
-            animation: true,
-            scales: {
-              y: {
-                beginAtZero: true
-              }
-            }
-          }
+        }
+      
+        new Chart(ctx, {
+          type: 'doughnut',
+          data: data,
+          
         });
     </script>
 </body>
