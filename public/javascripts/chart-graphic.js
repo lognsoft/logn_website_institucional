@@ -34,3 +34,18 @@ new Chart(ctx, {
     }
     
 });
+
+const ancoras = document.querySelectorAll("a[href=\"#pacotes\"]");
+
+ancoras.forEach(ancora => {
+    ancora.addEventListener("click", scrollToAnchor, false);
+})
+
+function scrollToAnchor(e){
+    e.preventDefault();
+
+    scroll({
+        top: document.querySelector("#pacotes").offsetTop,
+        behavior: 'smooth'
+    })
+}

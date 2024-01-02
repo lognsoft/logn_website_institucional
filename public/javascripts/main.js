@@ -510,7 +510,6 @@ $svgIconBox.each(function() {
         $svgIcon = $this.find('.svg-icon'),
         $id = $svgIcon.attr('id'),
         $icon = $svgIcon.data('svg-icon');
-        console.log($id);
     var $vivus = new Vivus($id, { duration: 180, file: $icon });
     $this.on('mouseenter', function () {
         $vivus.reset().play();
