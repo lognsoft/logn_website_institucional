@@ -43,7 +43,7 @@ module.exports = app => {
         let page = null;
         let data = {};
 
-        if(curso === 'programacao-para-iniciantes' || curso === 'programacao-para-iniciantes-online'){
+        if(curso === 'programacao-para-iniciantes' || curso === 'plataforma-de-cursos'){
             if(curso === 'programacao-para-iniciantes'){
                 page = 'curso-details-single'
                 data = {
