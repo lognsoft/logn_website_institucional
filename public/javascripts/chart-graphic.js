@@ -11,11 +11,11 @@ new Chart(ctx, {
                 type: 'bar',
                 label: 'Média salarial mensal',
                 data: [
-                    1.688,
-                    3.670,
-                    8.947,
-                    19.049,
-                    19.127
+                    1.622,
+                    3.987,
+                    8.023,
+                    15.510,
+                    16.339
                 ],
                 borderWidth: 1,
                 backgroundColor: [
