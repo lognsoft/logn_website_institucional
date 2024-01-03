@@ -5,15 +5,17 @@ const ctx = document.getElementById('myChart').getContext('2d');
 new Chart(ctx, {
     // type: 'bar',
     data: {
-        labels: ['junior', 'Pleno', 'Senior'],
+        labels: ['Estágio','Júnior', 'Pleno', 'Sênior', 'Outro'],
         datasets: [
             {
                 type: 'bar',
                 label: 'Média salarial mensal',
                 data: [
-                    3000,
-                    5500,
-                    7049
+                    1.688,
+                    3.670,
+                    8.947,
+                    19.049,
+                    19.127
                 ],
                 borderWidth: 1,
                 backgroundColor: [
