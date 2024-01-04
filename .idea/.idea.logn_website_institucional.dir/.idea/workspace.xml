@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f17745ea-b01e-4d68-abf0-5c8527054098" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/views/curso-details-online.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/curso-details-online.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="f17745ea-b01e-4d68-abf0-5c8527054098" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +56,7 @@
       <workItem from="1704311638600" duration="1103000" />
       <workItem from="1704317926780" duration="49000" />
       <workItem from="1704320950974" duration="752000" />
-      <workItem from="1704396343895" duration="680000" />
+      <workItem from="1704396343895" duration="1133000" />
     </task>
     <servers />
   </component>
