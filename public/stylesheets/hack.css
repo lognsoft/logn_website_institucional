@@ -172,6 +172,10 @@ p.graphic-credits{
     color: #09aff4 !important;
 }
 
+.mgb-44{
+    margin-bottom: 44px;
+}
+
 @media screen and (max-width: 991px) {
     .mb-title{
         font-size: 11vw !important;
