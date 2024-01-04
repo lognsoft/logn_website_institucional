@@ -176,6 +176,21 @@ p.graphic-credits{
     margin-bottom: 44px;
 }
 
+.btn-action-checkout{
+    display: block;
+    background-color: #0d141b;
+    border: 2px solid #09aff4;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 0px #ffbe18;
+    border-radius: 7px;
+}
+.btn-action-checkout:hover{
+    color: #ffbe18;
+    border-color: #ffbe18;
+    box-shadow: 0px 0px 10px #ffbe18, inset 0px 0px 15px #ffbe18;
+}
+
 @media screen and (max-width: 991px) {
     .mb-title{
         font-size: 11vw !important;
