@@ -191,6 +191,14 @@ p.graphic-credits{
     box-shadow: 0px 0px 10px #ffbe18, inset 0px 0px 15px #ffbe18;
 }
 
+@media screen and (max-width: 575px) {
+    .btn-action-checkout{
+        max-width: 297px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .mb-title{
         font-size: 11vw !important;
