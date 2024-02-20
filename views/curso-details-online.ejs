@@ -106,14 +106,14 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-10">
                         <div class="section__title text-center mb-55">
-                            <span class="sub-title tg__animate-text">REDEFINA SEU FUTURO</span>
+                            <span class="sub-title tg__animate-text">O momento é agora</span>
                             <h3 class="title text-center">Aprenda programação na prática</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <h4 class="match__winner-title text-center">Embarque em uma transformação de carreira com um curso prático e acessível, ideal para iniciantes.</h4>
+                        <h4 class="match__winner-title text-center">Embarque em uma transformação de carreira com um curso prático e acessível.</h4>
                     </div>
                 </div>
                 <div class="row">
@@ -252,7 +252,7 @@
                     <div class="col-12">
                         <div class="team__details-content">
                             <span class="sub-title">Cursos</span>
-                            <h2 class="title" style="font-size: 35px">Conteúdo das aulas</h2>
+                            <h2 class="title" style="font-size: 35px">Mais de <span id="contador-aulas"></span> aulas</h2>
                         </div>
                         <div class="product__desc-wrap" style="margin-top: 0">
                             <ul class="nav nav-tabs" id="descriptionTab" role="tablist">
@@ -261,6 +261,9 @@
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">Algoritmos e estrutura de dados</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="challeger-tab" data-bs-toggle="tab" data-bs-target="#challeger" type="button" role="tab" aria-controls="challeger" aria-selected="false">Desafios</button>
                                 </li>
                                 
                             </ul>
@@ -313,6 +316,7 @@
                                                                         <li class="active tg__animate-text style2">WriteLine/ReadLine</li>
                                                                         <li class="active tg__animate-text style2">Comentários</li>
                                                                         <li class="active tg__animate-text style2">Optimização de criação de variáveis superficialmente</li>
+                                                                        <li class="active tg__animate-text style2">IF e else, comparando os números superficialmente</li>
                                                                         <li class="active tg__animate-text style2">For</li>
                                                                         <li class="active tg__animate-text style2">Exercício 1</li>
                                                                         <li class="active tg__animate-text style2">Correção do Exercício 1</li>
@@ -469,6 +473,8 @@
                                                                         <li class="active tg__animate-text style2">Strings são imutáveis</li>
                                                                         <li class="active tg__animate-text style2">Comparação de Strings</li>
                                                                         <li class="active tg__animate-text style2">Manipulação de String</li>
+                                                                        <li class="active tg__animate-text style2">Classe String</li>
+                                                                        
                                                                         <li class="active tg__animate-text style2">StringBuilder</li>
                                                                         <li class="active tg__animate-text style2">Exercício 1</li>
                                                                         <li class="active tg__animate-text style2">Correção do Exercício 1</li>
@@ -657,6 +663,69 @@
                                     </div>
                                     <!-- accordions -->
                                 </div>
+                                <div class="tab-pane animation-none fade" id="challeger" role="tabpanel" aria-labelledby="challeger-tab">
+                                    <!-- accordions -->
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class="faq__content-wrap">
+                                                <div class="faq__wrapper">
+                                                    <div class="accordion" id="accordionExample3">
+                    
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header" id="headingSixTeen">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixTeen" aria-expanded="true" aria-controls="collapseSixTeen">
+                                                                   <span class="count">1°</span> Comece por aqui
+                                                                </button>
+                                                            </h2>
+                                                            <div id="collapseSixTeen" class="accordion-collapse collapse" aria-labelledby="headingSixTeen" data-bs-parent="#accordionExample3">
+                                                                <div class="accordion-body">
+                                                                    <ul class="roadMap__list list-wrap">
+                                                                        <li class="active tg__animate-text style2">Introdução</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                    
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header" id="headingSevenTeen">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSevenTeen" aria-expanded="false" aria-controls="collapseSevenTeen">
+                                                                    <span class="count">2°</span> Muito fácil
+                                                                </button>
+                                                            </h2>
+                                                            <div id="collapseSevenTeen" class="accordion-collapse collapse" aria-labelledby="headingSevenTeen" data-bs-parent="#accordionExample3">
+                                                                <div class="accordion-body">
+                                                                    <ul class="roadMap__list list-wrap">
+                                                                        <li class="active tg__animate-text style2">Encontre o maior número de um vetor</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                    
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header" id="headingEightTeen">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEightTeen" aria-expanded="false" aria-controls="collapseEightTeen">
+                                                                    <span class="count">3°</span> Fácil
+                                                                </button>
+                                                            </h2>
+                                                            <div id="collapseEightTeen" class="accordion-collapse collapse" aria-labelledby="headingEightTeen" data-bs-parent="#accordionExample3">
+                                                                <div class="accordion-body">
+                                                                    <ul class="roadMap__list list-wrap">
+                                                                        <li class="active tg__animate-text style2">Compre dois chocolates</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                    
+                                                        
+            
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- accordions -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -680,34 +749,32 @@
     
                         <div class="team__details-inner-wrap">
                             <div class="row My-grid">
+                                
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">01.</span> Mais de 170 aulas</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">01.</span> Desafios técnicos</h3>
                                 </div>
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">02.</span> Desafios técnicos</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">02.</span> Recursos para download</h3>
                                 </div>
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">03.</span> Recursos para download</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">03.</span> Novas aulas toda semana</h3>
                                 </div>
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">04.</span> Novas aulas toda semana</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">04.</span> Comunidade ativa</h3>
                                 </div>
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">05.</span> Comunidade ativa</h3>
-                                </div>
-                                <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">06.</span> Certificado de conclusão</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">05.</span> Certificado de conclusão</h3>
                                 </div>
                                 
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">07.</span> Desafios técnicos semanais</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">06.</span> Desafios técnicos semanais</h3>
                                 </div>
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">08.</span> Aulas bônus</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">07.</span> Aulas bônus</h3>
                                 </div>
                                 
                                 <div class="roadMap__steps-item active content-none">
-                                    <h3 class="title m-none"><span class="yellow-title">09.</span> Acesse no celular ou na TV</h3>
+                                    <h3 class="title m-none"><span class="yellow-title">08.</span> Acesse no celular ou na TV</h3>
                                 </div>
                             </div>
                             <!--<h2 class="title mbt-title" style="font-size: 35px">Leve de bônus</h2>-->
@@ -750,7 +817,8 @@
                             <div>
                                 <a href="https://chk.eduzz.com/2216532" target="_blank">
                                 
-                                    <div class="shop__item">
+                                    <div class="shop__item pt-1">
+                                        <p class="text-center m-0" style="color: white">ASSINATURA MENSAL</p>
                                         <div class="shop__item-thumb">
                                             <img src="/images/products/product01.svg" alt="img">
                                         </div>
@@ -758,9 +826,9 @@
                                         <div class="shop__item-content">
                                             <div class="shop__item-content-top">
                                                 <h4 class="title">
-                                                    Mensal
+                                                    de <span style="color: #ffbe18" class="text-decoration-line-through">37,90</span> por
                                                 </h4>
-                                                <div class="shop__item-price">R$ 24,90</div>
+                                                <div class="shop__item-price text-uppercase">24,90</div>
                                             </div>
                                             <!--<div class="shop__item-cat"><a href="shop.html">Valor promocional</a></div>-->
                                         </div>
@@ -774,17 +842,18 @@
                             
                         <div class="col">
                             <a href="https://chk.eduzz.com/2216514" target="_blank">
-                                <div class="shop__item">
+                                <div class="shop__item pt-1">
+                                    <p class="text-center m-0" style="color: white">ASSINATURA ANUAL</p>
                                     <div class="shop__item-thumb">
                                        <img src="/images/products/product04.svg" alt="img">
                                     </div>
                                     <div class="shop__item-line"></div>
                                     <div class="shop__item-content">
                                         <div class="shop__item-content-top">
-                                            <h4 class="title">Em até 12x de</h4>
-                                            <div class="shop__item-price">R$ 20,43 <br></div>
+                                            <h4 class="title">De <span style="color: #ffbe18" class="text-decoration-line-through">454,80</span> por</h4>
+                                            <div class="shop__item-price">R$ 199.90<br></div>
                                         </div>
-                                        <div class="shop__item-cat"><span class="distaque">R$ 199.90</span> À vista </div>
+                                        <div class="shop__item-cat">12x de <span class="distaque">R$ 20,43</span></div>
                                     </div>
                                 </div>
                                 <a class="btn-action-checkout" href="https://chk.eduzz.com/2216514" target="_blank">Garanta aqui sua vaga</a>
@@ -932,7 +1001,7 @@
     <script src="/javascripts/wow.min.js"></script>
     <script src="/javascripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="/javascripts/chart-graphic.js"></script>
+    <script src="/javascripts/contadorDeAulas.js"></script>
 </body>
 
 </html>
