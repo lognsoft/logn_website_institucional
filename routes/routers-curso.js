@@ -47,19 +47,19 @@ module.exports = app => {
             if(curso === 'programacao-para-iniciantes'){
                 page = 'curso-details-single'
                 data = {
-                    title: 'Logn - Programação para inciantes',
+                    title: 'Logn - Fundamentos de programação',
                     router: 'curso',
                     banner:{
-                        page: 'programação para iniciantes'
+                        page: 'Fundamentos de programação'
                     }
                 }
             } else {
                 page = 'curso-details-online';
                 data = {
-                    title: 'Logn - Programação para inciantes',
+                    title: 'Logn - Fundamentos de programação',
                     router: 'curso',
                     banner:{
-                        page: 'programação para iniciantes'
+                        page: 'Fundamentos de programação'
                     }
                 }
             }
