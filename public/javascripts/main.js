@@ -184,9 +184,18 @@ if($('.tgmenu__action .search').length) {
 /*===========================================
 	=        Click Sound Active		      =
 =============================================*/
-$('.search a, .tg-btn-1, .side-toggle-icon, .mobile-nav-toggler, .dropdown-btn').on('click', () => new Audio('/audio/click.wav').play());
-$('.search__close, .offCanvas__toggle, .offCanvas__overlay, .close-btn').on('click', () => new Audio('/audio/remove.wav').play());
-$('.about__tab-wrap ul button').on('click', () => new Audio('/audio/tab.mp3').play());
+const clickSound = new Audio('/audio/click.wav');
+clickSound.preload = 'auto';
+
+const removeSound = new Audio('/audio/remove.wav');
+removeSound.preload = 'auto';
+
+const tabSound = new Audio('/audio/tab.mp3');
+tabSound.preload = 'auto';
+
+$('.search a, .tg-btn-1, .side-toggle-icon, .mobile-nav-toggler, .dropdown-btn').on('click', () => clickSound.play());
+$('.search__close, .offCanvas__toggle, .offCanvas__overlay, .close-btn').on('click', () => removeSound.play());
+$('.about__tab-wrap ul button').on('click', () => tabSound.play());
 
 
 /*===========================================
